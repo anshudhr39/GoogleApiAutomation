@@ -1,0 +1,332 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 16,
+        "name": "VALIDATING ADD PLACE API",
+        "description": "",
+        "id": "validating-place-apis;validating-add-place-api;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1843195783,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "ADD PLACE PAYLOAD with \"AAHOUSE\" \"ENGLISH\" \"WCC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AAHOUSE",
+                  "offset": 24
+                },
+                {
+                  "val": "ENGLISH",
+                  "offset": 34
+                },
+                {
+                  "val": "WCC",
+                  "offset": 44
+                }
+              ],
+              "location": "Stepdef.add_PLACE_PAYLOAD_with(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2037801732,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User CALLS \"AddPlaceAPI\", WITH \"POST\" HTTP REQUEST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 12
+                },
+                {
+                  "val": "POST",
+                  "offset": 32
+                }
+              ],
+              "location": "Stepdef.user_CALLS_WITH_HTTP_REQUEST(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4052121,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "API CALL IS SUCCESS WITH STATUSCODE 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 36
+                }
+              ],
+              "location": "Stepdef.api_CALL_IS_SUCCESS_WITH_STATUSCODE(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1159698998,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"status\" IN RESPONSE BODY IS \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdef.in_RESPONSE_BODY_IS(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24460231,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"scope\" IN RESPONSE BODY IS \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 1
+                },
+                {
+                  "val": "APP",
+                  "offset": 29
+                }
+              ],
+              "location": "Stepdef.in_RESPONSE_BODY_IS(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 681037045,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "VERIFUY place_id created maps to \"AAHOUSE\" using \"getPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AAHOUSE",
+                  "offset": 34
+                },
+                {
+                  "val": "getPlaceAPI",
+                  "offset": 50
+                }
+              ],
+              "location": "Stepdef.verifuy_place_id_created_maps_to_using(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@AddPlace"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "VALIDATING ADD PLACE API",
+        "description": "",
+        "id": "validating-place-apis;validating-add-place-api;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3538019,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "ADD PLACE PAYLOAD with \"BBHOSUE\" \"SPANISH\" \"SCC\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BBHOSUE",
+                  "offset": 24
+                },
+                {
+                  "val": "SPANISH",
+                  "offset": 34
+                },
+                {
+                  "val": "SCC",
+                  "offset": 44
+                }
+              ],
+              "location": "Stepdef.add_PLACE_PAYLOAD_with(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 530737496,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User CALLS \"AddPlaceAPI\", WITH \"POST\" HTTP REQUEST",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AddPlaceAPI",
+                  "offset": 12
+                },
+                {
+                  "val": "POST",
+                  "offset": 32
+                }
+              ],
+              "location": "Stepdef.user_CALLS_WITH_HTTP_REQUEST(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 497619,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "API CALL IS SUCCESS WITH STATUSCODE 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 36
+                }
+              ],
+              "location": "Stepdef.api_CALL_IS_SUCCESS_WITH_STATUSCODE(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32018525,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"status\" IN RESPONSE BODY IS \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "status",
+                  "offset": 1
+                },
+                {
+                  "val": "OK",
+                  "offset": 30
+                }
+              ],
+              "location": "Stepdef.in_RESPONSE_BODY_IS(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16384834,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "\"scope\" IN RESPONSE BODY IS \"APP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "scope",
+                  "offset": 1
+                },
+                {
+                  "val": "APP",
+                  "offset": 29
+                }
+              ],
+              "location": "Stepdef.in_RESPONSE_BODY_IS(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 901807493,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "VERIFUY place_id created maps to \"BBHOSUE\" using \"getPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BBHOSUE",
+                  "offset": 34
+                },
+                {
+                  "val": "getPlaceAPI",
+                  "offset": 50
+                }
+              ],
+              "location": "Stepdef.verifuy_place_id_created_maps_to_using(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@AddPlace"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validating place APIS",
+    "description": "",
+    "id": "validating-place-apis",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

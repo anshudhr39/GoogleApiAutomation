@@ -1,0 +1,164 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "AAHOUSE",
+    "phone_number": "(+91)7856456987",
+    "address": "WCC",
+    "website": "https://rahulshettyacademy.com",
+    "language": "ENGLISH",
+    "location": {
+        "lat": -38.888,
+        "lng": 33.7686
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "AAHOUSE",
+    "phone_number": "(+91)7856456987",
+    "address": "WCC",
+    "website": "https://rahulshettyacademy.com",
+    "language": "ENGLISH",
+    "location": {
+        "lat": -38.888,
+        "lng": 33.7686
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=1c0f1ccb05a342844acfdb7ed830790b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=1c0f1ccb05a342844acfdb7ed830790b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=1c0f1ccb05a342844acfdb7ed830790b
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=1c0f1ccb05a342844acfdb7ed830790b
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "BBHOSUE",
+    "phone_number": "(+91)7856456987",
+    "address": "SCC",
+    "website": "https://rahulshettyacademy.com",
+    "language": "SPANISH",
+    "location": {
+        "lat": -38.888,
+        "lng": 33.7686
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "BBHOSUE",
+    "phone_number": "(+91)7856456987",
+    "address": "SCC",
+    "website": "https://rahulshettyacademy.com",
+    "language": "SPANISH",
+    "location": {
+        "lat": -38.888,
+        "lng": 33.7686
+    },
+    "types": [
+        "shoe park",
+        "shop"
+    ]
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=049583d065b5cd75c5ce6d1ce526bd5a
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=049583d065b5cd75c5ce6d1ce526bd5a
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=049583d065b5cd75c5ce6d1ce526bd5a
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=049583d065b5cd75c5ce6d1ce526bd5a
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
